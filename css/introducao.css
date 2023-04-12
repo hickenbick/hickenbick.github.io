@@ -28,6 +28,16 @@
 .introducao p {
   font-size: 1.5rem;
   color: #525252;
+  display: inline-block;
+}
+.flag-wrapper {
+  display: flex;
+  align-items: center;
+  gap: 1rem;
+}
+.flag {
+  display: inline-block;
+  max-height: 2.5rem;
 }
 @media (max-width: 1000px) {
   .introducao {
@@ -51,9 +61,6 @@
     font-size: 2rem;
     margin-bottom: 20px;
   }
-  .introducao p {
-    font-size: 1rem;
-  }
   .introducao h1::before {
     width: 30px;
     height: 10px;
@@ -65,12 +72,15 @@
     display: block;
     margin-top: -10px;
   }
-  .introducao img {
+  .profile-img {
     margin: 0 auto;
     padding-bottom: 60px;
   }
   .header {
     gap: 20px;
     padding-bottom: 0px;
+  }
+  .flag {
+    max-height: 2rem;
   }
 }
