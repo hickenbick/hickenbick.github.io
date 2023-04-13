@@ -21,6 +21,15 @@
 .portfolio-texto strong {
   color: #141414;
 }
+.portfolio-texto a {
+  all: unset;
+  font-size: 1.5rem;
+  line-height: 1.33;
+  margin-bottom: 20px;
+  color: rgb(18, 18, 214);
+  cursor: pointer;
+  text-decoration: underline;
+}
 .projeto::before {
   content: "";
   display: block;
@@ -100,6 +109,22 @@ a.botao-visualizar.btn-seta {
   margin-left: 15px;
   transition: 0.2s;
 }
+.flex-between {
+  display: flex;
+  justify-content: space-between;
+  align-items: start;
+  flex-wrap: wrap;
+}
+.github-btn {
+  all: unset;
+  background-color: #fec63e;
+  border: solid 1px #eee;
+  border-radius: 4px;
+  font-size: 1.25rem;
+  color: #141414;
+  cursor: pointer;
+  margin-top: -6px;
+}
 @media (max-width: 1000px) {
   .portfolio {
     grid-template-columns: 1fr 2fr;
@@ -129,10 +154,11 @@ a.botao-visualizar.btn-seta {
   }
   .projeto-texto {
     padding: 10px 0;
+    padding-bottom: 1rem;
   }
   .container-botao-visualizar {
-    display: grid;
-    place-content: start start;
+    display: flex;
+    align-items: start;
   }
 }
 @media (max-width: 500px) {

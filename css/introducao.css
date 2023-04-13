@@ -30,14 +30,14 @@
   color: #525252;
   display: inline-block;
 }
-.flag-wrapper {
+.flex-wrapper {
   display: flex;
   align-items: center;
   gap: 1rem;
 }
 .flag {
   display: inline-block;
-  max-height: 2.5rem;
+  max-height: 2rem;
 }
 @media (max-width: 1000px) {
   .introducao {
@@ -79,8 +79,5 @@
   .header {
     gap: 20px;
     padding-bottom: 0px;
-  }
-  .flag {
-    max-height: 2rem;
   }
 }
