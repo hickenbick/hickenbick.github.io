@@ -39,6 +39,17 @@
   display: inline-block;
   max-height: 2rem;
 }
+.container-hero {
+  padding-top: 32px;
+  display: flex;
+  justify-content: start;
+  gap: 1rem;
+}
+.container-hero a {
+  background-color: #f5f5f5;
+  border: solid 1px #ddd;
+}
+
 @media (max-width: 1000px) {
   .introducao {
     grid-template-columns: 1fr 1fr;
@@ -67,10 +78,10 @@
     left: 0px;
   }
 }
-@media (max-width: 550px) {
+@media (max-width: 600px) {
   .introducao {
-    display: block;
     margin-top: -10px;
+    display: block;
   }
   .profile-img {
     margin: 0 auto;

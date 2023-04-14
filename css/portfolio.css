@@ -1,3 +1,7 @@
+strong {
+  color: #333;
+}
+
 .portfolio {
   max-width: 1200px;
   padding: 40px 20px;
@@ -103,27 +107,18 @@
 }
 a.botao-visualizar.btn-seta {
   padding: 0.5rem 1rem;
+  border: solid 1px #ddd;
 }
 .btn-seta:hover:after {
   margin-right: -3px;
   margin-left: 15px;
-  transition: 0.2s;
+  transition: 0.1s;
 }
 .flex-between {
   display: flex;
   justify-content: space-between;
   align-items: start;
   flex-wrap: wrap;
-}
-.github-btn {
-  all: unset;
-  background-color: #fec63e;
-  border: solid 1px #eee;
-  border-radius: 4px;
-  font-size: 1.25rem;
-  color: #141414;
-  cursor: pointer;
-  margin-top: -6px;
 }
 @media (max-width: 1000px) {
   .portfolio {
